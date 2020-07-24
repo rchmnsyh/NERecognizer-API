@@ -1,1 +1,1 @@
-worker: python ner.py
+worker: python NER.py
