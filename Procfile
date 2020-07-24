@@ -1,1 +1,1 @@
-worker: python NER.py
+web: python NER.py
