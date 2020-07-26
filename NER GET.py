@@ -56,7 +56,7 @@ def get(kalimat):
     sentence, prediksi = prediksi_kalimat(kalimat)
     hasil = ""
     for w, pred in zip(sentence, prediksi[0]):
-            hasil = hasil + "{} - {} \n ".format(w, pred)
+            hasil = hasil + "{} - {}\n".format(w, pred)
     return {
     "chats": [
         {
